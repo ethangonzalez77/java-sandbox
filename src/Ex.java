@@ -1,3 +1,5 @@
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.Scanner;
 
 public class Ex {
@@ -36,6 +38,63 @@ public class Ex {
         scan.close();
 
 
+
+
+
+
+        //scanner with while loop.
+
+        Scanner sc1 = new Scanner(System.in);
+
+        int sum = 0;
+        int counter = 0;
+
+
+        while(true) {
+
+            int order = counter + 1;
+
+            System.out.println("Prompt: " + order + " Enter any number:");
+            boolean isInt = sc1.hasNextInt();
+
+
+            if (isInt) {
+                sum +=  sc1.nextInt();
+                counter++;
+
+                if (counter == 10) {
+                    break;
+                }
+            }else{
+                System.out.println("Input invalid, please type numbers only.");
+            }
+
+            sc1.nextLine();
+
+        }
+
+
+
+        sc1.close();
+
+        System.out.println("The total sum is : " + sum);
+
+
+
+
+
+
+
+
+
+
+
     }
+
+
+
+
+
+
 }
 
