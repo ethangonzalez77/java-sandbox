@@ -11,7 +11,7 @@ public class CarEx {
 
 //      🍔2. now with private fields and getters/setters:
 
-        subaru.setYear(2022);//assign the value
+        subaru.setYear(2013);//assign the value
         System.out.println("The year was " + subaru.getYear());//get the value
 
 
