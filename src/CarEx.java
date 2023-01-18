@@ -4,9 +4,15 @@ public class CarEx {
         Car subaru = new Car();
         subaru.model = " Impereza";
         subaru.color = "silver";
-        subaru.year = 2013;
+//        subaru.year = 2013;
 
-        System.out.println("The first car I bought was a " + subaru.year + subaru.model + " and the color was " + subaru.color);
+
+        System.out.println("The first car I bought was a " + subaru.model + " and the color was " + subaru.color);
+
+//      🍔2. now with private fields and getters/setters:
+
+        subaru.setYear(2022);//assign the value
+        System.out.println("The year was " + subaru.getYear());//get the value
 
 
 
