@@ -1,3 +1,7 @@
+package otherEx;
+
+import otherEx.Car;
+
 public class CarEx {
     public static void main(String[] args) {
 
@@ -15,8 +19,8 @@ public class CarEx {
         System.out.println("The year was " + subaru.getYear());//get the value
 
 
-
-
+        subaru.setModel2("ImPereZa");
+        System.out.println("The model is... " + subaru.getModel2());
 
 
     }
