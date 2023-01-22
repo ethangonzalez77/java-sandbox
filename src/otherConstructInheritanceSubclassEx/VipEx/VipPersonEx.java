@@ -30,6 +30,31 @@ public class VipPersonEx {
         System.out.println(p3.getCreditLimit());
         System.out.println(p3.getEmail());
 
+        System.out.println("-----------------------");
+
+
+        //now a constructor that has only NAME and EMAIL
+
+        VipPerson p4 = new VipPerson("Piccalo", "piccalo@gmail.com");
+
+        System.out.println(p4.getName());
+        System.out.println(p4.getCreditLimit());
+        System.out.println(p4.getEmail());
+
+        System.out.println("-----------------------");
+
+
+        //now a constructor that has only NAME and EMAIL
+
+        VipPerson p5 = new VipPerson(151515, "LuLUPizza@gmail.com");
+
+        System.out.println(p5.getName());
+        System.out.println(p5.getCreditLimit());
+        System.out.println(p5.getEmail());
+
+        System.out.println("-----------------------");
+
+
 
 
 

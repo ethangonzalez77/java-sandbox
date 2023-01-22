@@ -23,6 +23,14 @@ public class VipPerson {
         this(name, creditLimit, "NoEmail@gmail.com");
     }
 
+    public VipPerson(String name, String email) {
+        this(name, 9000, email);
+    }
+
+    public VipPerson(double creditLimit, String email) {
+        this("No Name", creditLimit, email);
+    }
+
     public VipPerson(String name, double creditLimit, String email) {
         this.name = name;
         this.creditLimit = creditLimit;
