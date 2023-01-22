@@ -9,6 +9,44 @@ public class Account {
     private String customerPhoneNumber;
 
 
+    public void deposit (double userBalance) {
+
+
+        this.balance += userBalance;
+        System.out.println(userBalance + " is how much you added to your account.");
+        System.out.println(this.balance + " is now in " + this.customerName + " account.");
+
+
+    }
+
+
+    public void withdrawal (double userWithdrawal) {
+
+
+        if (this.balance - userWithdrawal < 0) {
+
+            System.out.println("Sorry can't withdrawal that amount.");
+            System.out.println("You requested " + userWithdrawal);
+            System.out.println("You only have " + this.balance + " in your account");
+
+        }else {
+
+            this.balance -= userWithdrawal;
+
+            System.out.println(userWithdrawal + " is how much you requested.");
+            System.out.println(this.balance + " Is how much you have left in your account.");
+        }
+
+
+    }
+
+
+
+
+
+
+
+
     public Account() {
 
         this("0", 0, "No Name", "noName@nowhere.com", "No Phone Number");

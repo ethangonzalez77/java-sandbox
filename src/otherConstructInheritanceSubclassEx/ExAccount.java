@@ -43,6 +43,25 @@ public class ExAccount {
         System.out.println(a2.getCustomerPhoneNumber());
 
 
+        //now with deposit/withdrawal methods
+
+        System.out.println("-------------------------------------");
+
+
+        a2.withdrawal(50);
+
+        a2.setBalance(100);
+        System.out.println(a2.getBalance());
+
+        a2.withdrawal(99);
+
+        a2.deposit(9);
+
+        a2.withdrawal(200);
+
+
+
+
 
 
 
