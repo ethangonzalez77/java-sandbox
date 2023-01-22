@@ -1,4 +1,4 @@
-package otherEx;
+package otherMethodClassEx;
 
 public class Car {
 

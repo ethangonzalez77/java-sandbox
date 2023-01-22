@@ -1,6 +1,4 @@
-package otherEx;
-
-import otherEx.Car;
+package otherMethodClassEx;
 
 public class CarEx {
     public static void main(String[] args) {
