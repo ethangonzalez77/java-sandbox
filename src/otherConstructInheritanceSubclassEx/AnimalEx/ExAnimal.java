@@ -22,6 +22,20 @@ public class ExAnimal {
         System.out.println(labadore.getTeeth());
         System.out.println(labadore.getCoat());
 
+        System.out.println("-------------------");
+
+        Dog chiwawa = new Dog("lily", 2, 4, 1, 20, "Brown");
+
+        chiwawa.eat();
+
+        System.out.println("-------------------");
+
+        chiwawa.move();
+
+        System.out.println("-------------------");
+
+
+
 
 
 
