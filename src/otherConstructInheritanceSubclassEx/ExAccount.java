@@ -17,6 +17,18 @@ public class ExAccount {
     System.out.println(et.getCustomerPhoneNumber());
     System.out.println(et.getCustomerEmailAddress());
 
+    //now with the constructor
+
+        System.out.println("-------------------------------------");
+
+        Account a1 = new Account("11", 50, "alpha", "alpha@gmail.com", "000-111-000-1111");
+
+        System.out.println(a1.getNumber());
+        System.out.println(a1.getBalance());
+        System.out.println(a1.getCustomerName());
+        System.out.println(a1.getCustomerEmailAddress());
+        System.out.println(a1.getCustomerPhoneNumber());
+
 
 
 
