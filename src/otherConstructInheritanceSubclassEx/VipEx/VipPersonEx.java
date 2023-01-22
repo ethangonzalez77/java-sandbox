@@ -55,6 +55,20 @@ public class VipPersonEx {
         System.out.println("-----------------------");
 
 
+        //now a constructor that has only NAME
+
+        VipPerson p6 = new VipPerson("Krillin");
+
+        System.out.println(p6.getName());
+        System.out.println(p6.getCreditLimit());
+        System.out.println(p6.getEmail());
+
+        System.out.println("-----------------------");
+
+
+
+
+
 
 
 

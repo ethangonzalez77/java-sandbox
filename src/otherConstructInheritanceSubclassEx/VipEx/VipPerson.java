@@ -19,6 +19,10 @@ public class VipPerson {
         this("No Name", 9000, "NoEmail@gmail.com");
     }
 
+    public VipPerson(String name) {
+        this(name, 9000, "NoEmail@gmail.com");
+    }
+
     public VipPerson(String name, double creditLimit) {
         this(name, creditLimit, "NoEmail@gmail.com");
     }
