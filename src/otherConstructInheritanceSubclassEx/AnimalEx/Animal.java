@@ -16,6 +16,38 @@ public class Animal {
         this.weight = weight;
     }
 
+
+
+
+    public void eat () {
+
+
+        System.out.println("All animals eat differently");
+    }
+
+
+
+
+
+    public void move () {
+
+        System.out.println("All move eat differently");
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     public String getName() {
         return name;
     }
