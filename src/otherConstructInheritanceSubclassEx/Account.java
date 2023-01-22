@@ -11,6 +11,8 @@ public class Account {
 
     public Account() {
 
+        this("0", 0, "No Name", "noName@nowhere.com", "No Phone Number");
+
     }
 
 

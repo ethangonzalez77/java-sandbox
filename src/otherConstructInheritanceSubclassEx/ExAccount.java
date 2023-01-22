@@ -29,7 +29,19 @@ public class ExAccount {
         System.out.println(a1.getCustomerEmailAddress());
         System.out.println(a1.getCustomerPhoneNumber());
 
-        //now with a empty constructor that has default values that are applied to the Class's fields
+        //now with an empty constructor that has default values that are applied to the Class's fields
+
+        System.out.println("-------------------------------------");
+
+
+        Account a2 = new Account();
+
+        System.out.println(a2.getNumber());
+        System.out.println(a2.getBalance());
+        System.out.println(a2.getCustomerName());
+        System.out.println(a2.getCustomerEmailAddress());
+        System.out.println(a2.getCustomerPhoneNumber());
+
 
 
 
