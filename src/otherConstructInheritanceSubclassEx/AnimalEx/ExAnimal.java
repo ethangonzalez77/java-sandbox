@@ -35,6 +35,12 @@ public class ExAnimal {
         System.out.println("-------------------");
 
 
+        System.out.println(chiwawa.getName());
+        System.out.println(chiwawa.getEyes());
+        System.out.println(chiwawa.getLegs());
+        System.out.println(chiwawa.getTail());
+        System.out.println(chiwawa.getTeeth());
+        System.out.println(chiwawa.getCoat());
 
 
 
