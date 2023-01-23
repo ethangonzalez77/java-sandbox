@@ -12,7 +12,17 @@ public class ExVehicle {
         // For you specific type of vehicle you will want to add something specific for that type of car.
 
 
+        Impereza iz1 = new Impereza(9000);
 
+
+
+
+        System.out.println(iz1.getCurrentVelocity());
+        System.out.println(iz1.getCurrentDirection());
+
+
+
+        iz1.accelerate(50);
 
 
 

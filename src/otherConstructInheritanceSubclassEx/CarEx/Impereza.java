@@ -10,7 +10,7 @@ public class Impereza extends Car{
     }
 
 
-    public void transmission (int currentSpeed) {
+    public void accelerate (int currentSpeed) {
 
         int faster = currentSpeed + getCurrentVelocity();
 
