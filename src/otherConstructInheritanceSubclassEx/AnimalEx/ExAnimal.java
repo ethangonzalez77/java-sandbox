@@ -55,6 +55,13 @@ public class ExAnimal {
         System.out.println(catfish.getFins());
 
 
+        System.out.println(catfish.getBrian());
+        System.out.println(catfish.getBody());
+        System.out.println(catfish.getSize());
+        System.out.println(catfish.getWeight());
+
+
+
 
 
 
