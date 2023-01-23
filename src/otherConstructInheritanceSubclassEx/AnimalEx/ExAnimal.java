@@ -42,7 +42,11 @@ public class ExAnimal {
         System.out.println(chiwawa.getTeeth());
         System.out.println(chiwawa.getCoat());
 
+        System.out.println("-------------------");
 
+        Fish catfish = new Fish("Dory", 2, 2, 2);
+
+        catfish.swim();
 
 
 

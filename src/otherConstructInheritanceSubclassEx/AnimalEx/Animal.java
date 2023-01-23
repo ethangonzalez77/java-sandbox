@@ -31,7 +31,7 @@ public class Animal {
 
     public void move () {
 
-        System.out.println("All move eat differently");
+        System.out.println("All animals move differently 🛑🛑🛑🛑");
     }
 
 
