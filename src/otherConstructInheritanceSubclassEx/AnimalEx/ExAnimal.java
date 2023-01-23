@@ -49,6 +49,13 @@ public class ExAnimal {
         catfish.swim();
 
 
+        System.out.println(catfish.getName());
+        System.out.println(catfish.getGills());
+        System.out.println(catfish.getEyes());
+        System.out.println(catfish.getFins());
+
+
+
 
 
 

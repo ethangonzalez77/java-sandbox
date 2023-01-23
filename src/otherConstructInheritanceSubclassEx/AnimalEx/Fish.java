@@ -17,7 +17,7 @@ public class Fish extends Animal{
     public void swim () {
 
         move();
-        super.move();
+//        super.move();
 
     }
 
