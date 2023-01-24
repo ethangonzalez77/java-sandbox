@@ -19,9 +19,10 @@ public class Dog extends Animal{
     }
 
 
+
     public void chew() {
 
-        System.out.println("Dogs chew their food");
+        System.out.println("Dogs chew their food 🐶🐶🐶🐶🐶🐶");
 
     }
 
@@ -38,8 +39,11 @@ public class Dog extends Animal{
     public void eat() {
 
         chew();
-        super.eat();
+//        super.eat();
     }
+
+
+
 
     @Override
     public void move() {

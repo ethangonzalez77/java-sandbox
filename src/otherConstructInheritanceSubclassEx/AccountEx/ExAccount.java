@@ -1,4 +1,4 @@
-package otherConstructInheritanceSubclassEx;
+package otherConstructInheritanceSubclassEx.AccountEx;
 
 public class ExAccount {
     public static void main(String[] args) {
