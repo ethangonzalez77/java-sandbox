@@ -37,8 +37,11 @@ public class ExVehicle {
         iz1.accelerate(40);
         iz1.accelerate(900);
 
-        Impereza iz2 = new Impereza(9000);
 
+
+        System.out.println("----------------------------------");
+        Impereza iz2 = new Impereza(9000);
+        iz2.accelerate(0);
 
 
 

@@ -45,7 +45,7 @@ public class Vehicle {
 
 
     public void stop () {
-
+        System.out.println("The car has stopped.");
         this.currentVelocity = 0;
 
     }
