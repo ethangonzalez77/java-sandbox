@@ -17,31 +17,35 @@ public class ExVehicle {
 
 
 
-        System.out.println(iz1.getCurrentVelocity());
-        System.out.println(iz1.getCurrentDirection());
-
-
-
-//        iz1.accelerate(50);
-
-        System.out.println(iz1.getCurrentVelocity());
-        System.out.println(iz1.getCurrentDirection());
-
-
-        System.out.println("----------------------------------");
-
-        iz1.accelerate(0);
-        iz1.accelerate(10);
-        iz1.accelerate(20);
-        iz1.accelerate(30);
-        iz1.accelerate(40);
-        iz1.accelerate(900);
+//        System.out.println(iz1.getCurrentVelocity());
+//        System.out.println(iz1.getCurrentDirection());
+//
+//
+//
+////        iz1.accelerate(50);
+//
+//        System.out.println(iz1.getCurrentVelocity());
+//        System.out.println(iz1.getCurrentDirection());
+//
+//
+//        System.out.println("----------------------------------");
+//
+//        iz1.accelerate(0);
+//        iz1.accelerate(10);
+//        iz1.accelerate(20);
+//        iz1.accelerate(30);
+//        iz1.accelerate(40);
+//        iz1.accelerate(900);
 
 
 
         System.out.println("----------------------------------");
         Impereza iz2 = new Impereza(9000);
+
+
         iz2.accelerate(0);
+        iz2.accelerate(10);
+
 
 
 

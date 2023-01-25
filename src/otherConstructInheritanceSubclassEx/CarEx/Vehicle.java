@@ -38,6 +38,7 @@ public class Vehicle {
 
         this.currentVelocity = speed;
         this.currentDirection = direction;
+        System.out.println("velocity: " + currentVelocity + "  direction : " + currentDirection);
 
     }
 
