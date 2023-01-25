@@ -43,8 +43,9 @@ public class ExVehicle {
         Impereza iz2 = new Impereza(9000);
 
 
-        iz2.accelerate(0);
-        iz2.accelerate(10);
+        iz2.accelerate(4);
+        iz2.accelerate(50);
+//        iz2.accelerate(20);
 
 
 
