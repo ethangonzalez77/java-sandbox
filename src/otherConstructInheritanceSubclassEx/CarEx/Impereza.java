@@ -12,7 +12,7 @@ public class Impereza extends Car{
 
     public void accelerate (int currentSpeed) {
 
-        int faster = currentSpeed + getCurrentVelocity();
+        int faster = currentSpeed + getCurrentVelocity();//this method is what's making our currentVelocity field in our Vehicle Class be added values on top of each other rather than reassign them.
 
         if (faster == 0) {
 

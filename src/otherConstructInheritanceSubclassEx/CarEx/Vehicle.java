@@ -36,7 +36,7 @@ public class Vehicle {
 
     public void move (int speed, int direction) {
 
-        this.currentVelocity = speed;
+        this.currentVelocity = speed;//seems to add instead of reassign.🤔
         this.currentDirection = direction;
         System.out.println("velocity: " + currentVelocity + "  direction : " + currentDirection);
 
