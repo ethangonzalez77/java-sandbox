@@ -21,11 +21,11 @@ public class SecResolution {
 
     }
 
-    public int getWidth() {
+    private int getWidth() {
         return width;
     }
 
-    public int getHeight() {
+    private int getHeight() {
         return height;
     }
 }

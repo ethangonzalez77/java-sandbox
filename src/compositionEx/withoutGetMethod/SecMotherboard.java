@@ -25,7 +25,7 @@ public class SecMotherboard {
     }
 
 
-    public void allMotherboardProperties () {
+    public void allMotherboardProperties () {//🦧making this method private will cause errors, it looks like having access to the Class/object/field isn't enough to access this private method. It has to be public, or we need another public method that access this private method.
 
         System.out.println();
         System.out.println("__________________________________________________+");
@@ -41,23 +41,23 @@ public class SecMotherboard {
 
     }
 
-    public String getModel() {
+    private String getModel() {
         return model;
     }
 
-    public String getManufacturer() {
+    private String getManufacturer() {
         return manufacturer;
     }
 
-    public int getRamSlots() {
+    private int getRamSlots() {
         return ramSlots;
     }
 
-    public int getCardSlots() {
+    private int getCardSlots() {
         return cardSlots;
     }
 
-    public String getBios() {
+    private String getBios() {
         return bios;
     }
 }

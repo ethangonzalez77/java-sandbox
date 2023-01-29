@@ -19,7 +19,7 @@ public class SecPcEx {
 
 //        pc1.getSecCase().allProperties();  old way
 
-        pc1.allProperties();
+        pc1.allProperties();//you can add more security to the methods in other Classes, like you did with the Pc Class, if you wanted to. Nvm I tried to make private methods but that didn't work look for 🦧 in SecMotherboard Class for more info.
 
 
 

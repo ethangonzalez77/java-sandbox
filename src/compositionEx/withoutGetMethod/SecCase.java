@@ -43,19 +43,19 @@ public class SecCase {
 
 
 
-    public String getModel() {
+    private String getModel() {
         return model;
     }
 
-    public String getManufacture() {
+    private String getManufacture() {
         return manufacture;
     }
 
-    public String getPowerSupply() {
+    private String getPowerSupply() {
         return powerSupply;
     }
 
-    public SecDimensions getNativeDimensions() {
+    private SecDimensions getNativeDimensions() {
         return nativeDimensions;
     }
 }

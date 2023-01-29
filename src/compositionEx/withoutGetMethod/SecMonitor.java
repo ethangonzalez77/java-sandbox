@@ -51,19 +51,19 @@ public class SecMonitor {
 
 
 
-    public String getModel() {
+    private String getModel() {
         return model;
     }
 
-    public String getManufacture() {
+    private String getManufacture() {
         return manufacture;
     }
 
-    public int getSize() {
+    private int getSize() {
         return size;
     }
 
-    public SecResolution getNativeResolution() {
+    private SecResolution getNativeResolution() {
         return nativeResolution;
     }
 }

@@ -18,7 +18,7 @@ public class SecDimensions {
 
 
 
-        System.out.println("Dimensions: " + "width " + width + ", height " + height + ", depth " + depth + " 🧇🧇🧇🧇🧇🧇🧇🧇");
+        System.out.println("Dimensions: " + "width " + width + ", height " + height + ", depth private" + depth + " 🧇🧇🧇🧇🧇🧇🧇🧇");
 
 
 
@@ -31,15 +31,15 @@ public class SecDimensions {
 
 
 
-    public int getWidth() {
+    private int getWidth() {
         return width;
     }
 
-    public int getHeight() {
+    private int getHeight() {
         return height;
     }
 
-    public int getDepth() {
+    private int getDepth() {
         return depth;
     }
 }
