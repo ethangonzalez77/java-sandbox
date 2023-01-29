@@ -12,12 +12,7 @@ public class SecResolution {
 
     public void allSecResolutionProperties () {
 
-
-
-        System.out.println("Resolution: " + width + " by " + height + " 🧇🧇🧇🧇🧇🧇🧇🧇");
-
-
-
+        System.out.println("Resolution: " + width + " by " + height + " 🧇🧇🧇🧇🧇🧇🧇🧇     |");
 
     }
 

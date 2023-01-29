@@ -27,15 +27,15 @@ public class SecMotherboard {
 
     public void allMotherboardProperties () {//🦧making this method private will cause errors, it looks like having access to the Class/object/field isn't enough to access this private method. It has to be public, or we need another public method that access this private method.
 
-        System.out.println();
+//        System.out.println();
         System.out.println("__________________________________________________+");
-        System.out.println("Here are all of the properties to SecMotherboard: |");
+        System.out.println("Here are all of the properties to Motherboard:    |");
         System.out.println("--------------------------------------------------+");
-        System.out.println("Model: " + model);
-        System.out.println("Manufacture: " + manufacturer);
-        System.out.println("RAM slots: " + ramSlots);
-        System.out.println("Card slots: " + cardSlots);
-        System.out.println("Bios: " + bios);
+        System.out.println("Model: " + model + "                                         |");
+        System.out.println("Manufacture: " + manufacturer + "                         |");
+        System.out.println("RAM slots: " + ramSlots + "                                      |");
+        System.out.println("Card slots: " + cardSlots + "                                     |");
+        System.out.println("Bios: " + bios + "                                        |");
         System.out.println("__________________________________________________|");
         System.out.println();
 

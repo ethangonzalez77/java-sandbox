@@ -16,12 +16,7 @@ public class SecDimensions {
 
     public void allSecDimensionsProperties () {
 
-
-
-        System.out.println("Dimensions: " + "width " + width + ", height " + height + ", depth private" + depth + " 🧇🧇🧇🧇🧇🧇🧇🧇");
-
-
-
+        System.out.println("Dimensions: " + "width " + width + ", height " + height + ", depth " + depth + " 🧇|");
 
     }
 
