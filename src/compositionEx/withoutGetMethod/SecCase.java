@@ -18,7 +18,19 @@ public class SecCase {
 
     public void pressPowerButton () {
 
-        System.out.println("The power is on!!!!");
+        System.out.println("The power is on !!!!");
+
+    }
+
+
+
+    public void allProperties () {
+
+        System.out.println("Here are all of the properties to SecCase: ");
+        System.out.println("Model: " + model);
+        System.out.println("Manufacture: " + manufacture);
+        System.out.println("Power supply: " + powerSupply);
+
 
     }
 

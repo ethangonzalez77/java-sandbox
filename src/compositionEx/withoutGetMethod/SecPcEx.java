@@ -15,7 +15,9 @@ public class SecPcEx {
         SecPc pc1 = new SecPc(sm1, smo1, sc1);
 
 
-        pc1.PowerOn();
+//        pc1.PowerOn();
+
+        pc1.getSecCase().allProperties();
 
 
 

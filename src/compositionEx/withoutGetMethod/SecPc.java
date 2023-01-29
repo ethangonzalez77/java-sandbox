@@ -26,15 +26,15 @@ public class SecPc {
 
 
 
-//    public SecMotherboard getSecMotherboard() {
-//        return secMotherboard;
-//    }
-//
-//    public SecMonitor getSecMonitor() {
-//        return secMonitor;
-//    }
-//
-//    public SecCase getSecCase() {
-//        return secCase;
-//    }
+    public SecMotherboard getSecMotherboard() {
+        return secMotherboard;
+    }
+
+    public SecMonitor getSecMonitor() {
+        return secMonitor;
+    }
+
+    public SecCase getSecCase() {
+        return secCase;
+    }
 }
