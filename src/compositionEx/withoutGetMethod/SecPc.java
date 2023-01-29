@@ -23,18 +23,28 @@ public class SecPc {
         secMotherboard.loadProgram("The Best!!!");
     }
 
+    public void allProperties() {
+
+        getSecMotherboard().allMotherboardProperties();
+
+        getSecMonitor().allMonitorProperties();
+
+        getSecCase().allCaseProperties();
 
 
 
-    public SecMotherboard getSecMotherboard() {
+    }
+
+
+    private SecMotherboard getSecMotherboard() {
         return secMotherboard;
     }
 
-    public SecMonitor getSecMonitor() {
+    private SecMonitor getSecMonitor() {
         return secMonitor;
     }
 
-    public SecCase getSecCase() {
+    private SecCase getSecCase() {
         return secCase;
     }
 }

@@ -25,6 +25,24 @@ public class SecMonitor {
     }
 
 
+    public void allMonitorProperties () {
+
+        System.out.println();
+        System.out.println("______________________________________________+");
+        System.out.println("Here are all of the properties to SecMonitor: |");
+        System.out.println("----------------------------------------------+");
+        System.out.println("Model: " + model);
+        System.out.println("Manufacture: " + manufacture);
+        System.out.println("Size: " + size);
+        System.out.println("______________________________________________|");
+        System.out.println();
+
+
+
+    }
+
+
+
 
     public String getModel() {
         return model;

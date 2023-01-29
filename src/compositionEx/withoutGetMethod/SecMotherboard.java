@@ -25,7 +25,23 @@ public class SecMotherboard {
     }
 
 
+    public void allMotherboardProperties () {
 
+        System.out.println();
+        System.out.println("__________________________________________________+");
+        System.out.println("Here are all of the properties to SecMotherboard: |");
+        System.out.println("--------------------------------------------------+");
+        System.out.println("Model: " + model);
+        System.out.println("Manufacture: " + manufacturer);
+        System.out.println("RAM slots: " + ramSlots);
+        System.out.println("Card slots: " + cardSlots);
+        System.out.println("Bios: " + bios);
+        System.out.println("__________________________________________________|");
+        System.out.println();
+
+
+
+    }
 
     public String getModel() {
         return model;

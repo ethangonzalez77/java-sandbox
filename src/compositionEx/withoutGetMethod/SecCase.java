@@ -24,12 +24,18 @@ public class SecCase {
 
 
 
-    public void allProperties () {
+    public void allCaseProperties () {
 
-        System.out.println("Here are all of the properties to SecCase: ");
-        System.out.println("Model: " + model);
-        System.out.println("Manufacture: " + manufacture);
-        System.out.println("Power supply: " + powerSupply);
+        System.out.println();
+        System.out.println("___________________________________________+");
+        System.out.println("Here are all of the properties to SecCase: |");
+        System.out.println("-------------------------------------------+");
+        System.out.println("Model: " + model + "                       |");
+        System.out.println("Manufacture: " + manufacture + "           |");
+        System.out.println("Power supply: " + powerSupply + "          |");
+        System.out.println("___________________________________________|");
+        System.out.println();
+
 
 
     }
