@@ -34,10 +34,17 @@ public class SecMonitor {
         System.out.println("Model: " + model);
         System.out.println("Manufacture: " + manufacture);
         System.out.println("Size: " + size);
+
+//        System.out.println("Resolution: " + getNativeResolution().getHeight() + " by " + getNativeResolution().getWidth());
+
+
+        nativeResolution.allSecResolutionProperties();
+
+
+
+
         System.out.println("______________________________________________|");
         System.out.println();
-
-
 
     }
 

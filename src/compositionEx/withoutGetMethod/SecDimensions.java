@@ -12,6 +12,25 @@ public class SecDimensions {
         this.depth = depth;
     }
 
+
+
+    public void allSecDimensionsProperties () {
+
+
+
+        System.out.println("Dimensions: " + "width " + width + ", height " + height + ", depth " + depth + " 🧇🧇🧇🧇🧇🧇🧇🧇");
+
+
+
+
+    }
+
+
+
+
+
+
+
     public int getWidth() {
         return width;
     }

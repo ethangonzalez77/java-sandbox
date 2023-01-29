@@ -32,6 +32,11 @@ public class SecPc {
         getSecCase().allCaseProperties();
 
 
+//        secMotherboard.allMotherboardProperties();
+//        secMonitor.allMonitorProperties();
+//        secCase.allCaseProperties();
+
+        //💚Here is a perfect ex of using private methods or direct fields to access properties of other Classes/Objects
 
     }
 

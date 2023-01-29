@@ -30,13 +30,14 @@ public class SecCase {
         System.out.println("___________________________________________+");
         System.out.println("Here are all of the properties to SecCase: |");
         System.out.println("-------------------------------------------+");
-        System.out.println("Model: " + model + "                       |");
-        System.out.println("Manufacture: " + manufacture + "           |");
-        System.out.println("Power supply: " + powerSupply + "          |");
+        System.out.println("Model: " + model);
+        System.out.println("Manufacture: " + manufacture);
+        System.out.println("Power supply: " + powerSupply);
+
+        nativeDimensions.allSecDimensionsProperties();//NEW
+
         System.out.println("___________________________________________|");
         System.out.println();
-
-
 
     }
 

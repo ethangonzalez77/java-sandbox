@@ -10,6 +10,17 @@ public class SecResolution {
         this.height = height;
     }
 
+    public void allSecResolutionProperties () {
+
+
+
+        System.out.println("Resolution: " + width + " by " + height + " 🧇🧇🧇🧇🧇🧇🧇🧇");
+
+
+
+
+    }
+
     public int getWidth() {
         return width;
     }

@@ -39,8 +39,6 @@ public class SecMotherboard {
         System.out.println("__________________________________________________|");
         System.out.println();
 
-
-
     }
 
     public String getModel() {
