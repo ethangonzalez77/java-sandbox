@@ -20,7 +20,7 @@ public class Bed {
 
     public void makeBed () {
 
-        System.out.println("Bed is made 🛏️🛏️🛏️");
+        System.out.println("Bed is now made 🛏️🛏️🛏️");
 
     }
 
