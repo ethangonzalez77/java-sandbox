@@ -1,4 +1,4 @@
-package compositionEx;
+package compositionEx.pcChallenge;
 
 public class Motherboard {
 

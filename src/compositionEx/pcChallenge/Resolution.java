@@ -1,16 +1,16 @@
-package compositionEx;
+package compositionEx.pcChallenge;
 
-public class Dimensions {
+public class Resolution {
 
     private int width;
     private int height;
-    private int depth;
 
-    public Dimensions(int width, int height, int depth) {
+
+    public Resolution(int width, int height) {
         this.width = width;
         this.height = height;
-        this.depth = depth;
     }
+
 
     public int getWidth() {
         return width;
@@ -18,9 +18,5 @@ public class Dimensions {
 
     public int getHeight() {
         return height;
-    }
-
-    public int getDepth() {
-        return depth;
     }
 }

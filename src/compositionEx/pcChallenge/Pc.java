@@ -1,4 +1,8 @@
-package compositionEx;
+package compositionEx.pcChallenge;
+
+import compositionEx.pcChallenge.Case;
+import compositionEx.pcChallenge.Monitor;
+import compositionEx.pcChallenge.Motherboard;
 
 public class Pc {
 

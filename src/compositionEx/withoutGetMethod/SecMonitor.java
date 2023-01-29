@@ -1,7 +1,5 @@
 package compositionEx.withoutGetMethod;
 
-import compositionEx.Resolution;
-
 public class SecMonitor {
 
     private String model;
