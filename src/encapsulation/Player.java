@@ -4,7 +4,7 @@ public class Player {
 
     public String name;
 
-    public int health = 99;
+    public int healthBar = 99;// was changed to show the flaws of public fields
 
     public String weapon;
 
