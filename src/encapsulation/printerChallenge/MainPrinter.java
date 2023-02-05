@@ -14,10 +14,13 @@ public class MainPrinter {
         // Decide on the scope, whether to use constructors, and anything else you think is needed.
 
 
+        Printer p1 = new Printer(80, true);//try switching false to see what happens
 
 
+        p1.printPapers(5);
+        System.out.println("papers printed are " + p1.getPagesPrinted());
 
-
+        p1.addToner(50);
 
 
 

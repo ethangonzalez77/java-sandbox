@@ -12,10 +12,13 @@ public class Printer {
 
         if (tonerLevel > 0 && tonerLevel <= 100) {
             this.tonerLevel = tonerLevel;
+        }else {
+            this.tonerLevel = -1;
         }
 
 
         this.duplex = duplex;
+        this.pagesPrinted = 0;
 
 
     }
@@ -26,9 +29,41 @@ public class Printer {
 
 
 
-    public void printPapers (int papers) {
+    public int printPapers (int papers) {
 
-        this.pagesPrinted = (papers / 2) + (papers % 2);
+
+        if (duplex) {
+
+            this.pagesPrinted += (papers / 2) + (papers % 2);
+
+        }else {
+            this.pagesPrinted += papers;
+        }
+
+
+        return this.pagesPrinted;
+
+
+    }
+
+
+
+    public void addToner (int toner) {
+
+
+        if (this.tonerLevel + toner > 100) {
+
+            System.out.println("too much passes 100%");
+
+        }else {
+
+            this.tonerLevel += toner;
+            System.out.println("the toner is now " + this.tonerLevel + "%");
+
+        }
+
+
+
 
     }
 
