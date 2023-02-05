@@ -4,7 +4,7 @@ public class EnhancedPlayer {
 
     private String name;
 
-    private int healthyyyyyyBarss = 2;
+    private int playerHealth = 2;
 
     private String weapoooooons;
 
@@ -15,7 +15,7 @@ public class EnhancedPlayer {
 
         if (health > 0 && health < 95) {
 
-            this.healthyyyyyyBarss = health;
+            this.playerHealth = health;
 
         }
 
@@ -27,9 +27,9 @@ public class EnhancedPlayer {
 
     public void damageBar (int damage) {
 
-        this.healthyyyyyyBarss -= damage;
+        this.playerHealth -= damage;
 
-        if (healthyyyyyyBarss < 0) {
+        if (playerHealth < 0) {
 
             System.out.println("Yooo, this Player got knocked out");
 
@@ -42,6 +42,6 @@ public class EnhancedPlayer {
 
 
     public int getHealth() {
-        return healthyyyyyyBarss;
+        return playerHealth;
     }
 }

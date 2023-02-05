@@ -6,7 +6,7 @@ public class Case {
     private String manufacture;
     private String powerSupply;
 
-    private Dimensions nativeDimensions;
+    private Dimensions nativeDimensions;// empty object/var
 
     public Case(String model, String manufacture, String powerSupply, Dimensions nativeDimensions) {
         this.model = model;
