@@ -10,7 +10,7 @@ public class Printer {
     public Printer(int tonerLevel,  boolean duplex) {
 
 
-        if (tonerLevel > 0 && tonerLevel <= 100) {
+        if (tonerLevel >= 0 && tonerLevel <= 100) {
             this.tonerLevel = tonerLevel;
         }else {
             this.tonerLevel = -1;
@@ -35,6 +35,7 @@ public class Printer {
         if (duplex) {
 
             this.pagesPrinted += (papers / 2) + (papers % 2);
+            System.out.println("Printing in duplex mode");
 
         }else {
             this.pagesPrinted += papers;
@@ -51,14 +52,23 @@ public class Printer {
     public void addToner (int toner) {
 
 
-        if (this.tonerLevel + toner > 100) {
 
-            System.out.println("too much passes 100%");
+        if (toner > 0) {
+
+            if (this.tonerLevel + toner > 100) {
+
+                System.out.println(toner + " is too much it exceeds 100%");
+            }else {
+
+                this.tonerLevel += toner;
+                System.out.println("the toner is now " + this.tonerLevel + "%");
+
+            }
+
 
         }else {
 
-            this.tonerLevel += toner;
-            System.out.println("the toner is now " + this.tonerLevel + "%");
+            System.out.println("Not enough toner");
 
         }
 
