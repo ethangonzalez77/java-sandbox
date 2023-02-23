@@ -8,7 +8,7 @@ public class Main {
 
             Movie movie = randomMovie();
 
-            System.out.println("Loop #" + i + " Current movie is: " + movie.getTitle() + " And the plot is: " + movie.plot());
+            System.out.println("Loop #" + i + " Current movie is: " + movie.getTitle() + ", And the plot is: " + movie.plot());
 
         }
 
