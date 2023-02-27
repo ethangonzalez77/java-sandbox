@@ -41,12 +41,14 @@ public class Main {
         double totalCost = hamburger.itemizePrice();
 
         System.out.println("Your total is: " + String.format("%.2f", totalCost) + " 🍔🍔🍔");
+        System.out.println();
 
 
         HealthyHamburger healthyHamburger = new HealthyHamburger("Bacon", 12);
         healthyHamburger.additionalItem1("American Cheese", 1.50);
-        healthyHamburger.addExtraHealthyItem1("Carrot", 1.25);
-        System.out.println("Your total price is: " + healthyHamburger.itemizePrice());
+        healthyHamburger.addExtraHealthyItem1("Carrot", 1.20);
+        double totalHealthyPrice = healthyHamburger.itemizePrice();
+        System.out.println("Your total price is: " + String.format("%.2f", totalHealthyPrice));
 
 
 
