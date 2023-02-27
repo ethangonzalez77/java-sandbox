@@ -37,9 +37,7 @@ public class Main {
         hamburger.additionalItem1("Cheese", 1);
         hamburger.additionalItem2("Lettuce", 0.75);
         hamburger.additionalItem3("Tomato", 1);
-
         double totalCost = hamburger.itemizePrice();
-
         System.out.println("Your total is: " + String.format("%.2f", totalCost) + " 🍔🍔🍔");
         System.out.println();
 
@@ -47,6 +45,7 @@ public class Main {
         HealthyHamburger healthyHamburger = new HealthyHamburger("Bacon", 12);
         healthyHamburger.additionalItem1("American Cheese", 1.50);
         healthyHamburger.addExtraHealthyItem1("Carrot", 1.20);
+        healthyHamburger.addExtraHealthyItem2("Broccoli", 0.52);
         double totalHealthyPrice = healthyHamburger.itemizePrice();
         System.out.println("Your total price is: " + String.format("%.2f", totalHealthyPrice));
 
