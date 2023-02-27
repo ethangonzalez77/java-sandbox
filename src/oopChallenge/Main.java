@@ -42,5 +42,16 @@ public class Main {
 
         System.out.println("Your total is: " + String.format("%.2f", totalCost) + " 🍔🍔🍔");
 
+
+        HealthyHamburger healthyHamburger = new HealthyHamburger("Bacon", 12);
+        healthyHamburger.additionalItem1("American Cheese", 1.50);
+        healthyHamburger.addExtraHealthyItem1("Carrot", 1.25);
+        System.out.println("Your total price is: " + healthyHamburger.itemizePrice());
+
+
+
+
+
+
     }
 }
