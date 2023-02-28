@@ -52,8 +52,9 @@ public class Main {
 
 
         DeluxeBurger deluxeBurger = new DeluxeBurger();
+        deluxeBurger.additionalItem1("Cookie", 2.25);//won't add to deluxe, works the way it should.
         double totalDeluxePrice = deluxeBurger.itemizePrice();
-        System.out.println("Your total Deluxe price is: " + totalDeluxePrice);
+        System.out.println("Your total Deluxe price is: " + String.format("%.2f", totalDeluxePrice));
 
 
 
