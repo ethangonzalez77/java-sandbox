@@ -48,6 +48,12 @@ public class Main {
         healthyHamburger.addExtraHealthyItem2("Broccoli", 0.52);
         double totalHealthyPrice = healthyHamburger.itemizePrice();
         System.out.println("Your total price is: " + String.format("%.2f", totalHealthyPrice));
+        System.out.println();
+
+
+        DeluxeBurger deluxeBurger = new DeluxeBurger();
+        double totalDeluxePrice = deluxeBurger.itemizePrice();
+        System.out.println("Your total Deluxe price is: " + totalDeluxePrice);
 
 
 
